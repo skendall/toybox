@@ -7,7 +7,10 @@ repositories {
 }
 
 dependencies {
-	compile 'org.apache.camel:camel-core:2.13.2'
+    compile 'org.slf4j:slf4j-api:1.7.7'
+    compile 'org.slf4j:slf4j-log4j12:1.7.7'
+
+    compile 'org.apache.camel:camel-core:2.13.2'
 	compile 'org.apache.camel:camel-jms:2.13.2'
 	compile 'org.apache.camel:camel-irc:2.13.2'
 	compile 'org.apache.camel:camel-disruptor:2.13.2'
