@@ -1,0 +1,14 @@
+
+apply plugin: 'java'
+apply plugin: 'idea'
+
+repositories {
+	mavenCentral()
+}
+
+dependencies {
+	compile 'org.apache.camel:camel-core:2.13.2'
+	compile 'org.apache.camel:camel-jms:2.13.2'
+	compile 'org.apache.camel:camel-irc:2.13.2'
+	compile 'org.apache.camel:camel-disruptor:2.13.2'
+}
